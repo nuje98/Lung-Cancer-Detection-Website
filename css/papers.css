@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
+    background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    padding-top: 20px;
+    text-align: center;
+    color: #f8f8ff;
+}
+ul{
+    position: relative;
+    width: 600px;
+    margin: 100px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .1);
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    overflow: hidden;
+}
+ul li{
+    display: flex;
+    background: rgba(255, 255, 255, .1);
+    padding: 10px 20px;
+    color: #fff;
+    margin: 5px 0;
+    transition: .5s;
+}
+ul li:nth-child(1){
+    background: rgba(255, 255, 255, .2);
+}
+ul li:nth-child(2){
+    background: rgba(255, 255, 255, .2);
+}
+ul li span:nth-child(1){
+    width: 30px;
+}
+ul li span:nth-child(2){
+    width: 550px;
+}
+ul li:nth-child(1):hover{
+    transform: scale(1.06);
+    background: #fc2c77;
+}
+ul li:nth-child(2):hover{
+    transform: scale(1.06);
+    background: #6c4079;
+}
