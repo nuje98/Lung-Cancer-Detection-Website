@@ -1,3 +1,11 @@
+.back{
+    padding-top: 30px;
+    padding-left: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 .bg-gra-02 {
     background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
